@@ -13,5 +13,8 @@ kubectl create namespace qq2 --dry-run=client -o yaml > 3-namespace.yaml
 kubectl apply -f 3-namespace.yaml
 kubectl apply -f 3-pod.yaml -n qq2
 
+Check 4:
+nano 4-nginx.yaml
+kubectl apply -f 4-nginx.yaml -n qq3
 
 
