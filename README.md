@@ -18,7 +18,7 @@ Check 4:
 
 
 Check 5:
-nano 4-nginx.yaml
-kubectl apply -f 4-nginx.yaml -n qq3
+nano 5-nginx.yaml
+kubectl apply -f 5-nginx.yaml -n qq3
 
 
